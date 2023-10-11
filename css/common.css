@@ -1,0 +1,45 @@
+#wrap{
+    max-width: 1920px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+header, section, footer{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+
+/* 1024 start  */
+@media all and (max-width:1024px){
+    #in_header, #section_2{
+        width:90%;
+    }
+}
+
+/* 1024 end  */
+
+/* 500 start  */
+@media all and (max-width:500px){
+    #in_header{
+        width:90%;
+    }
+}
+
+/* 500 end  */
+
+
+/* 375 start  */
+@media all and (max-width:375px){
+    #in_header{
+        width:90%;
+    }
+}
+
+/* 375 end  */
+
+
